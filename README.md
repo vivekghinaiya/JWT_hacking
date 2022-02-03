@@ -28,7 +28,7 @@ openssl s_client -connect <hostname>:443
      - To change the algorithm we are again going to use the same tool named jwt_tool.
      - First, we will see what is the behaviour of the application with the given RS256 signed token.
 
-      - Send JWT to validate the token
+     - Send JWT to validate the token
 
      - You can see token is validated by the server So let’s start changing the algorithm with the tool.
      - Command with an example :
@@ -81,3 +81,9 @@ openssl s_client -connect <hostname>:443
  - https://github.com/hahwul/jwt-hack
     
  -  https://jwt.io/
+
+  # Reference
+  - https://kathan19.gitbook.io/howtohunt/jwt-attack/jwt_attack
+  - https://github.com/ticarpi/jwt_tool/wiki
+  - https://pentestbook.six2dez.com/enumeration/webservices/jwt
+  - 
